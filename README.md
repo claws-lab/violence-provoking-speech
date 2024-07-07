@@ -1,1 +1,0 @@
-# violence-provoking-speech

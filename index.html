@@ -1,0 +1,336 @@
+<script src="http://www.google.com/jsapi" type="text/javascript"></script> 
+<script type="text/javascript">google.load("jquery", "1.3.2");</script>
+
+<style type="text/css">
+	body {
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+		font-weight:300;
+		font-size:18px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1100px;
+	}
+	
+	h1 {
+		font-size:32px;
+		font-weight:300;
+	}
+	
+	.disclaimerbox {
+		background-color: #eee;		
+		border: 1px solid #eeeeee;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+		padding: 20px;
+	}
+
+	video.header-vid {
+		height: 140px;
+		border: 1px solid black;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+	}
+	
+	img.header-img {
+		height: 140px;
+		border: 1px solid black;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+	}
+	
+	img.rounded {
+		border: 1px solid #eeeeee;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+	}
+	
+	a:link,a:visited
+	{
+		color: #1367a7;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #208799;
+	}
+	
+	.layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+		5px 5px 0 0px #fff, /* The second layer */
+		5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+		10px 10px 0 0px #fff, /* The third layer */
+		10px 10px 1px 1px rgba(0,0,0,0.35), /* The third layer shadow */
+		15px 15px 0 0px #fff, /* The fourth layer */
+		15px 15px 1px 1px rgba(0,0,0,0.35), /* The fourth layer shadow */
+		20px 20px 0 0px #fff, /* The fifth layer */
+		20px 20px 1px 1px rgba(0,0,0,0.35), /* The fifth layer shadow */
+		25px 25px 0 0px #fff, /* The fifth layer */
+		25px 25px 1px 1px rgba(0,0,0,0.35); /* The fifth layer shadow */
+		margin-left: 10px;
+		margin-right: 45px;
+	}
+
+	.paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		0px 0px 1px 1px rgba(0,0,0,0.35); /* The top layer shadow */
+
+		margin-left: 10px;
+		margin-right: 45px;
+	}
+
+
+	.layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+		5px 5px 0 0px #fff, /* The second layer */
+		5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+		10px 10px 0 0px #fff, /* The third layer */
+		10px 10px 1px 1px rgba(0,0,0,0.35); /* The third layer shadow */
+		margin-top: 5px;
+		margin-left: 10px;
+		margin-right: 30px;
+		margin-bottom: 5px;
+	}
+	
+	.vert-cent {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.bibtex-code {
+            font-size: 8pt;
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+            width: 100%;
+            display: inline-block;
+            position: relative;
+        }
+	.bibtex-title {
+		font-size: 14pt;
+		font-weight: bold;
+	}
+	.bibtex-code code {
+		color: #333;
+		font-family: monospace;
+	}
+	.bibtex-code code .title {
+		color: #d73a49;
+	}
+	.bibtex-code code .author {
+		color: #6f42c1;
+	}
+	.bibtex-code code .journal {
+		color: #0366d6;
+	}
+	.bibtex-code code .year {
+		color: #005cc5;
+	}
+	.copy-icon {
+		position: absolute;
+		right: 5px;
+		top: 2px;
+		font-size: 10pt;
+		color: #0366d6;
+	}
+
+</style>
+
+<html>
+<head>
+	<title>Community-Centric Perspective on Violence-Provoking Speech against Asian Communities</title>
+	<meta property="og:image" content="./assets/teaser.png"/> 
+	<meta property="og:title" content="A Community-Centric Perspective for Characterizing and Detecting Anti-Asian Violence-Provoking Speech" />
+	<meta property="og:description" content="Paper title: A Community-Centric Perspective for Characterizing and Detecting Anti-Asian Violence-Provoking Speech; Authors: Gaurav Verma, Rynaa Grover, Jiawei Zhou, Binny Mathew, Jordan Kraemer, Munmun De Choudhury, Srijan Kumar; Affiliations: Georgia Institute of Technology, Anti-Defamation League" />
+</head>
+
+<body>
+	<br>
+	<center>
+		<span style="font-size:36px">A Community-Centric Perspective for Characterizing and Detecting Anti-Asian Violence-Provoking Speech</span><br/>
+		<span style="font-size:25px">[<a href="TODO">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/claws-lab/violence-provoking-speech">GitHub</a>]</span><br/><br/>
+		
+		<span><img src ="assets/acl-logo.png" width="250px;"/></span><br/><br/>
+		<span><a href="https://gaurav22verma.github.io/">Gaurav Verma</a><sup>1</sup>, 
+			<a href="https://www.linkedin.com/in/rynaagrover">Rynaa Grover</a><sup>1</sup>, 
+			<a href="https://jiaweizhou.me/">Jiawei Zhou</a><sup>1</sup>,
+			  <a href="https://binny-mathew.github.io/">Binny Mathew</a><sup>2</sup>,<br/>
+			  <a href="https://www.linkedin.com/in/jordankraemer">Jordan Kraemer</a><sup>2</sup>,
+			  <a href="http://www.munmund.net/">Munmun De Choudhury</a><sup>1</sup>,
+			  <a href="https://faculty.cc.gatech.edu/~srijan/">Srijan Kumar</a><sup>1</sup>
+			</span><br/><br/>
+			<span><sup>1</sup>Georgia Institute of Technology, <sup>2</sup>Anti-Defamation League</span><br/>
+		<a href="https://www.cc.gatech.edu/"><img src="./assets/gt-logo.png" width=200px></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.adl.org/"><img src="./assets/ADL-logo.svg" width=105px></a><br/><br/>
+
+
+	<hr><br/><br/>
+	<center>
+		<table align=center width=850px>
+			<tr>
+				<td width=850px>
+					<center><h1>Motivation and Overview of our Study</h1></center>
+						In light of the dramatic uptick in anti-Asian violence and ensuing community fear (<a href="https://www.nytimes.com/interactive/2021/04/03/us/anti-asian-attacks.html" target="_blank">NYT<sub>a</sub></a>, <a href="https://www.nytimes.com/2021/03/17/us/hate-crimes-against-asian-americans-community.html" target="_blank">NYT<sub>b</sub></a>, <a href="https://www.nbcnews.com/news/asian-america/anti-asian-hate-crimes-increased-339-percent-nationwide-last-year-repo-rcna14282" target="_blank">NBC</a>), the necessity to accurately identify <em>violence-provoking speech</em> &mdash; i.e., <em>speech that could promote real-world violence against members of targeted communities</em> (<a href="https://dangerousspeech.org/guide/" target="_blank">Benesch et al., 2021</a>), becomes paramount. This differs from <em>hateful speech</em>, which is <em>a more subjective form of expression that may not directly incite violence</em>. While both these phenomena share commonalities &mdash; being rooted in prejudice and derogation &mdash; violence-provoking speech constitutes a specific <em>subset</em> of hateful speech that explicitly or implicitly encourages acts of aggression. The higher severity of harm associated with violence-provoking speech calls for targeted approaches for its detection, beyond treating hate as a monolithic entity. <br/><br/>
+
+					Recognizing that the perception of <em>what</em> qualifies as violence-provoking is not universal but varies among the targeted communities, we adopt a <em>community-centric</em> approach. We leverage the "insider perspectives" (<a href="https://ojs.aaai.org/index.php/ICWSM/article/view/18061" target="_blank">Kim et al., 2021</a>) and the subjective lived experiences of community members to capture the nuances, slurs, and coded language that may be overlooked by outsiders. In sum, we address two key research questions:<br/>
+					<em>RQ1</em>: What are the characteristics of violence-provoking speech that targets Asian communities? How is anti-Asian violence-provoking speech different from anti-Asian hateful speech?<br/>
+					<em>RQ2</em>: Can state-of-the-art natural language processing (NLP) approaches accurately detect violence-provoking speech? How do the detection abilities compare to that of hate speech detection?
+				</td>
+			</tr>
+		</table><br/><br/>
+
+		<hr>
+
+	</center>
+
+	<table align=center width=850px>
+		<center><h1>Technical Abstract</h1></center>
+		<tr>
+			<td>
+				Violence-provoking &mdash; speech speech that implicitly or explicitly promotes violence against the members of the targeted community, contributed to a massive surge in anti-Asian crimes during the COVID-19 pandemic. While previous works have characterized and built tools for detecting other forms of harmful speech, like fear speech and hate speech, our work takes a community-centric approach to studying anti-Asian violence-provoking speech. Using data from ~420k Twitter posts spanning a 3-year duration (January 1, 2020 to February 1, 2023), we develop a codebook to characterize anti-Asian violence-provoking speech and collect a community-crowdsourced dataset to facilitate its large-scale detection using state-of-the-art classifiers. We contrast the capabilities of natural language processing classifiers, ranging from BERT-based to LLM-based classifiers, in detecting violence-provoking speech with their capabilities to detect anti-Asian hateful speech. In contrast to prior work that has demonstrated the effectiveness of such classifiers in detecting hateful speech ( F<sub>1</sub> = 0.89 ), our work shows that accurate and reliable detection of violence-provoking speech is a challenging task ( F<sub>1</sub> = 0.69 ). We discuss the implications of our findings, particularly the need for proactive interventions to support Asian communities during public health crises.
+			</td>
+		</tr>
+	</table>
+	<br>
+	<hr>
+
+
+
+	<table style="border-collapse: collapse; font-size: 16px; font-style: normal;">
+		<center><h1>Anti-Asian Violence-Provoking Speech Codebook</h1></center>
+				<p style="text-align: left; font-size:16px;">The following codebook is greatly inspired from the <a href="https://dangerousspeech.org/guide/" target="_blank">practical guide</a> developed by the <a href="https://dangerousspeech.org/" target="_blank">Dangerous Speech Project</a>. We adopt and expand it to <em>(a)</em> conceptualize it for anti-Asian violence-provoking speech, and <em>(b)</em> operationalize its characterization and detection social platforms like Twitter. The codebook considers both explicit and implicit forms of violence-provoking speech, while also making distinction between speech that targets community members and other related forms, such as speech aimed to criticize political activities/origanization and inanimate objects. 
+				</p>
+		<thead>
+			<tr>
+				<th style="border-bottom: 1px solid black; padding: 5px; border-top: 1px solid black; padding: 5px; text-align: left; background-color: #f2f2f2;">Concept</th>
+				<th style="border-bottom: 1px solid black; padding: 5px; border-top: 1px solid black; padding: 5px; text-align: left; background-color: #f2f2f2;">Sub-concept</th>
+				<th style="border-bottom: 1px solid black; padding: 5px; border-top: 1px solid black; padding: 5px; text-align: left; background-color: #f2f2f2;">Identifiers</th>
+				<th style="border-bottom: 1px solid black; padding: 5px; border-top: 1px solid black; padding: 5px; text-align: left; background-color: #f2f2f2;">Definition</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td rowspan="7" style="border-bottom: 1px solid black; padding: 5px;"><b>1.</b> Community-targeting violence-provoking speech could lead to violence against the community</td>
+				<td style="border-bottom: 1px solid black; padding: 5px;"> <b>(a)</b> Direct violence-provoking</td>
+				<td style="border-bottom: 1px solid black; padding: 5px;">  Explicit mention of violence</td>
+				<td style="border-bottom: 1px solid black; padding: 5px;">Directly mention attacking the members of the targeted community and causing them physical harm</td>
+			</tr>
+			<tr>
+				<td rowspan="6" style="border-bottom: 1px solid black; padding: 5px;"> <b>(b)</b> Indirect violence-provoking</td>
+				<td style="border-bottom: 1px solid black; padding: 5px;">Dehumanization</td>
+				<td style="border-bottom: 1px solid black; padding: 5px;">Dehumanization is the description of other people (in this case, Asians) as something other than human or less than human. This can involve likening them to bacteria, insects, or other repulsive or unwanted creatures.</td>
+			</tr>
+			<tr>
+				<td style="border-bottom: 1px solid black; padding: 5px;">Guilt Attribution</td>
+				<td style="border-bottom: 1px solid black; padding: 5px;">Victims are often deemed guilty as a group, deserving collective punishment for the specific crimes of some of their “members.”</td>
+			</tr>
+			<tr>
+				<td style="border-bottom: 1px solid black; padding: 5px;">Threat construction</td>
+				<td style="border-bottom: 1px solid black; padding: 5px;">Asserts that the in-group faces serious and often mortal threats from the victims to-be, which makes violence seem defensive, and therefore proper and necessary.</td>
+			</tr>
+			<tr>
+				<td style="border-bottom: 1px solid black; padding: 5px;">Prediction of Violence</td>
+				<td style="border-bottom: 1px solid black; padding: 5px;">Violence is presented as inevitable and necessary as a way to protect the in-group from harm or annihilation.</td>
+			</tr>
+			<tr>
+				<td style="border-bottom: 1px solid black; padding: 5px;">Virtuetalk</td>
+				<td style="border-bottom: 1px solid black; padding: 5px;">The valorization of violence by associating it with a range of praiseworthy characteristics, and the parallel denigration of resistance or non-participation as indicating a lack of proper character traits, a deplorable “weakness,” or a range of other deficiencies.</td>
+			</tr>
+			<tr>
+				<td style="border-bottom: 1px solid black; padding: 5px;">Future-bias</td>
+				<td style="border-bottom: 1px solid black; padding: 5px;">The confident anticipation of future goods that will be accrued through violence, and which are so extensive and so enduring in a relatively certain future that they easily outweigh the moral costs of victims’ deaths in the here and now.</td>
+			</tr>
+			<tr>
+				<td style="border-bottom: 1px solid black; padding: 5px;"><b>2.</b> Such speech targets member(s) of the general public and not political entities, organizations, countries, or inanimate objects.</td>
+				<td style="border-bottom: 1px solid black; padding: 5px;"></td>
+				<td style="border-bottom: 1px solid black; padding: 5px;"></td>
+				<td style="border-bottom: 1px solid black; padding: 5px;">The speech targets one or many members of the public that belong to Asian communities and not political entities, political personalities, countries, organizations, or inanimate objects like (web/mobile applications, products, food items, etc.).</td>
+			</tr>
+			<tr>
+				<td style="border-bottom: 1px solid black; padding: 5px;"><b>3.</b> Such speech is aimed to harm and does not (i) counter violence-provoking speech, (ii) share lived or witnessed experiences, and (iii) comprise news articles or reports of attacks.</td>
+				<td style="border-bottom: 1px solid black; padding: 5px;"></td>
+				<td style="border-bottom: 1px solid black; padding: 5px;"></td>
+				<td style="border-bottom: 1px solid black; padding: 5px;">The speech is intended to direct harm toward the Asian communities and does not mention narratives that include violence-provoking speech as a means to bring attention to them.
+				This would exclude sharing lived or witnessed experiences and new articles that report incidents.</td>
+			</tr>
+		</tbody>
+	</table><br/><br/>
+
+	<p style="text-align: left; font-size: 16px; font-style: normal;"><b>Data and other resources</b>: Curating instances of violence-provoking speech on a regulated platform like Twitter is challenging. We developed an elaborate data curation pipeline, comprising steps like expansion of search keywords that could indicate anti-Asian and "dangerous" sentiments, adopting few-shot classification for constructing a subset of curated data that is dense in potentially violence-provoking speech, and then using community-crowdsourcing to get the annotations for the susbet of the data. In accordance to the Twitter guidelines, we share the Twitter IDs and the community-crowdsourced annotations for violence-provoking and hateful speech. Additionally, we share the expanded set of search keywords to faciliate future research. Check out our <a href="https://github.com/claws-lab/violence-provoking-speech">GitHub repo</a>.</p><br/>
+
+	<hr/>
+
+	<table align=center width=970px>
+		<center><h1>Paper and Bibtex</h1></center>
+		<tr>
+			<td><a href="./assets/projection-in-MLLMs.pdf"><img class="layered-paper-big" style="height:175px" src="./assets/screenshot.PNG"/></a></td>
+			<td>
+				<span style="font-size:12pt">A Community-Centric Perspective for Characterizing and Detecting Anti-Asian Violence-Provoking Speech<br>
+				Gaurav Verma, Rynaa Grover, Jiawei Zhou, Binny Mathew, Jordan Kraemer, Munmun De Choudhury, Srijan Kumar<br>
+				In 62nd Annual Meeting of the Association for Computational Linguistics (ACL 2024)<br><br/>
+				Webpage: <a href="https://claws-lab.github.io/violence-provoking-speech">https://claws-lab.github.io/violence-provoking-speech</a><br/>
+				Code: <a href="https://github.com/claws-lab/violence-provoking-speech">https://github.com/claws-lab/violence-provoking-speech</a><br/>
+				arXiv: <a href="TODO">https://arxiv.org/abs/NNNN.NNNNN</a></span><br><br/><br/>
+			</td>
+		</tr>
+	</table>
+
+	<table align="center" width="595px">
+        <tr>
+            <td>
+                <span class="bibtex-title">Bibtex:</span><br/><br/>
+                <div class="bibtex-code">
+                    <span class="copy-icon" onclick="copyToClipboard()">📋 copy</span>
+                    <code>
+						@article{verma2024violenceprovoking,<br/>
+						&nbsp;&nbsp;&nbsp;&nbsp;<span class="title">title</span>={A Community-Centric Perspective for Characterizing and Detecting Anti-Asian Violence-Provoking Speech},<br/>
+						&nbsp;&nbsp;&nbsp;&nbsp;<span class="author">author</span>={Verma, Gaurav and Grover, Rynaa and Zhou, Jiawei and Mathew, Binny and Kraemer, Jordan and De Choudhury, Munmun and Kumar, Srijan},<br/>
+						&nbsp;&nbsp;&nbsp;&nbsp;<span class="journal">journal</span>={62nd Annual Meeting of the Association for Computational Linguistics (ACL)},<br/>
+						&nbsp;&nbsp;&nbsp;&nbsp;<span class="year">year</span>={2024}<br/>
+						}
+					</code>
+                </div>
+            </td>
+        </tr>
+    </table><br/>
+
+	<hr>
+	<br>
+
+	<table align=center width=900px>
+		<tr>
+			<td width=400px>
+				<center>
+					<span style="font-size: 10px;">
+					The template is built on top of the <a href="https://github.com/richzhang/webpage-template">one</a> build by <a href="http://web.mit.edu/phillipi/">Phillip Isola</a> and <a href="http://richzhang.github.io/">Richard Zhang</a>.
+					</span>
+				</center>
+			</td>
+		</tr>
+	</table>
+
+
+	<!-- <script src="./assets/script.js"></script> -->
+	<script>
+        function copyToClipboard() {
+            const codeText = `@article{verma2024violenceprovoking,
+    title={A Community-Centric Perspective for Characterizing and Detecting Anti-Asian Violence-Provoking Speech},
+    author={Verma, Gaurav and Grover, Rynaa and Zhou, Jiawei and Mathew, Binny and Kraemer, Jordan and De Choudhury, Munmun and Kumar, Srijan},
+    journal={62nd Annual Meeting of the Association for Computational Linguistics (ACL)},
+    year={2024}
+}`;
+            navigator.clipboard.writeText(codeText).then(() => {
+                alert('BibTeX entry copied to clipboard!');
+            }, (err) => {
+                console.error('Could not copy text: ', err);
+            });
+        }
+    </script>
+
+<br>
+</body>
+</html>
