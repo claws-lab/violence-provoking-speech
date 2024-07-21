@@ -29,7 +29,7 @@ If you find these resources helpful, please cosnider citing our paper:
 @article{verma2024community,
   title={A Community-Centric Perspective for Characterizing and Detecting Anti-Asian Violence-Provoking Speech},
   author={Verma, Gaurav and Grover, Rynaa and Zhou, Jiawei and Mathew, Binny and Kraemer, Jordan and De Choudhury, Munmun and Kumar, Srijan},
-  journal={62nd Annual Meeting of the Association for Computational Linguistics (ACL)},
+  publisher={62nd Annual Meeting of the Association for Computational Linguistics (ACL)},
   year={2024}
 }
 ```
