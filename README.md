@@ -1,5 +1,5 @@
 # (ACL 2024) A Community-Centric Perspective for Characterizing and Detecting Anti-Asian Violence-Provoking Speech 
-*Paper*: [https://arxiv.org/abs/NNNN.NNNNN](https://arxiv.org/abs/NNNN.NNNNN)  
+*Paper*: [https://arxiv.org/abs/2407.15227](https://arxiv.org/abs/2407.15227)  
 *Webpage*: [https://claws-lab.github.io/violence-provoking-speech/](https://claws-lab.github.io/violence-provoking-speech/)  
 *GitHub*: [https://github.com/claws-lab/violence-provoking-speech](https://github.com/claws-lab/violence-provoking-speech/)   
 
